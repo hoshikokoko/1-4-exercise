@@ -17,23 +17,28 @@
 }
 
 .main {
-  width: 100%;
+  width: 960px;
   display: flex;
   justify-content: center;
   margin: 0 auto;
-  
 }
 
-.blog {
-  width: 980px;
+.sidebar-right {
+  width: 230px;
   height: 1400px;
   background-color: palegreen;
 }
 
-.sidebar {
+.blog {
   width: 500px;
   height: 1400px;
   background-color: limegreen;
+}
+
+.sidebar-left {
+  width: 230px;
+  height: 1400px;
+  background-color: palegreen;
 }
 
 .footer {
